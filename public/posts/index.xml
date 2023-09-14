@@ -1,22 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Blog Raúl</title>
-    <link>https://xxchave2xx.github.io/raulchavez/posts/</link>
-    <description>Recent content in Posts on Blog Raúl</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xxchave2xx.github.io/raulchavez/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Git: Básico</title>
-      <link>https://xxchave2xx.github.io/raulchavez/posts/post_1/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://xxchave2xx.github.io/raulchavez/posts/post_1/</guid>
-      <description>¿Qué es Git?Link to headingGit es una herramienta que te ayuda a llevar un registro de los cambios que haces en tus archivos. Es como una especie de &amp;ldquo;historial&amp;rdquo; que puedes usar para trabajar en proyectos o guardar tus trabajos personales.
-Pasos Básicos de GitLink to heading1. Instala GitLink to headingEl primer paso es obtener Git en tu computadora. Hazlo así:
-Ve a este enlace.</description>
-    </item>
-    
-  </channel>
-</rss>
