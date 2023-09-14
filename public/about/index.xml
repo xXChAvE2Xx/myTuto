@@ -1,22 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Abouts on Blog Raúl</title>
-    <link>https://xxchave2xx.github.io/raulchavez/about/</link>
-    <description>Recent content in Abouts on Blog Raúl</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es</language>
-    <lastBuildDate>Thu, 14 Sep 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://xxchave2xx.github.io/raulchavez/about/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Sobre mí</title>
-      <link>https://xxchave2xx.github.io/raulchavez/about/about/</link>
-      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://xxchave2xx.github.io/raulchavez/about/about/</guid>
-      <description>Who am ILink to headingHola, aquí vas a leer un poco sobre mi 🤩
-Mi nombre es Raúl Antonio Chávez Aguirre , soy del estado de Colima y me encanta mucho ir a la playa.
-Hola como ya mencione me llamo Raúl Antonio Chávez Aguirre y me gusta que me digan Raúl, tengo 22 años y vivo actualmente en un pueblito que se encuentra en el estado de Colima.</description>
-    </item>
-    
-  </channel>
-</rss>
