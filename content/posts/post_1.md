@@ -128,12 +128,8 @@ Puedes cambiar a una rama existente con el siguiente comando:
 git checkout nombre-de-la-rama
 
 ```
-### 9. Guarda tus Cambios en un Repositorio Remoto (Opcional)
-Si trabajas con otras personas o deseas tener una copia de seguridad en línea de tu proyecto, puedes utilizar un servicio en línea como GitHub o GitLab para guardar tus cambios. Esto te permite colaborar en proyectos y tener una copia segura de tu trabajo.
 
-Espero que estos detalles adicionales te ayuden a comprender mejor Git. Si tienes más preguntas o necesitas más explicaciones, no dudes en preguntar.
-
-### 10. Colaborar con Otros (Opcional)
+### 9. Colaborar con Otros (Opcional)
 Si estás trabajando en un proyecto con otras personas, Git te permite colaborar de manera efectiva. Aquí hay más información sobre cómo colaborar:
 
 #### a. Clonar un Repositorio Existente:
@@ -156,7 +152,7 @@ git push -u origin main
 
 Estos comandos configuran tu repositorio local para colaborar con un repositorio en línea, como GitHub.
 
-### 11. Resolución de Conflictos (Opcional)
+### 10. Resolución de Conflictos (Opcional)
 A veces, cuando varias personas trabajan en el mismo proyecto, pueden ocurrir conflictos. Esto sucede cuando dos personas hacen cambios en la misma parte de un archivo. Git te permite resolver estos conflictos. Aquí está cómo:
 
 #### a. Obtener los Cambios más Recientes:
