@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>
+  Git: Básico · Blog Raúl
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="Raul Chavez Aguirre">
+<meta name="description" content="Git básico para principiantes.">
+<meta name="keywords" content="blog,developer,personal">
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Git: Básico"/>
+<meta name="twitter:description" content="Git básico para principiantes."/>
+
+<meta property="og:title" content="Git: Básico" />
+<meta property="og:description" content="Git básico para principiantes." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://xxchave2xx.github.io/raulchavez/posts/post_1/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-09-14T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-09-14T00:00:00+00:00" />
+
+
+
+
+<link rel="canonical" href="https://xxchave2xx.github.io/raulchavez/posts/post_1/">
+
+
+<link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/raulchavez/css/coder.min.135e22c97ff685fe983fc60048e309ced8f00d8d38f536aa67dba8a13a03dfa4.css" integrity="sha256-E14iyX/2hf6YP8YASOMJztjwDY049TaqZ9uooToD36Q=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/raulchavez/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/static/favicon.png" sizes="any">
+<link rel="icon" type="image/png" href="/static/favicon.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/static/favicon.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="/raulchavez">
+      Blog Raúl
+    </a>
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/raulchavez/posts/">Blog</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link" href="/raulchavez/about/">About</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://xxchave2xx.github.io/raulchavez/posts/post_1/">
+              Git: Básico
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <time datetime="2023-09-14T00:00:00Z">
+                septiembre 14, 2023
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa fa-clock-o" aria-hidden="true"></i>
+              6 minutos de lectura.
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <h2 id="qué-es-git">
+  ¿Qué es Git?
+  <a class="heading-link" href="#qu%c3%a9-es-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<p>Git es una herramienta que te ayuda a llevar un registro de los cambios que haces en tus archivos. Es como una especie de &ldquo;historial&rdquo; que puedes usar para trabajar en proyectos o guardar tus trabajos personales.</p>
+<h2 id="pasos-básicos-de-git">
+  Pasos Básicos de Git
+  <a class="heading-link" href="#pasos-b%c3%a1sicos-de-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h2>
+<h3 id="1-instala-git">
+  1. Instala Git
+  <a class="heading-link" href="#1-instala-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>El primer paso es obtener Git en tu computadora. Hazlo así:</p>
+<blockquote>
+<ul>
+<li>Ve a <a href="https://git-scm.com/downloads"  class="external-link" target="_blank" rel="noopener">este enlace</a>.</li>
+<li>Descarga Git para tu sistema operativo (Windows, macOS o Linux).</li>
+<li>Sigue las instrucciones para instalarlo.</li>
+</ul>
+</blockquote>
+<h3 id="2-configura-tu-nombre-y-correo">
+  2. Configura tu Nombre y Correo
+  <a class="heading-link" href="#2-configura-tu-nombre-y-correo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Git necesita saber quién eres para saber quién hizo cada cambio. Configura tu nombre y correo electrónico con estos comandos:</p>
+<pre tabindex="0"><code>git config --global user.name &#34;Tu Nombre&#34;
+git config --global user.email &#34;tu@email.com&#34;
+</code></pre><h3 id="3-crea-un-nuevo-proyecto">
+  3. Crea un Nuevo Proyecto
+  <a class="heading-link" href="#3-crea-un-nuevo-proyecto">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Piensa en un proyecto que quieras hacer y crea una carpeta para él en tu computadora. Por ejemplo, podrías llamarla &ldquo;Mi Proyecto&rdquo;.</p>
+<h3 id="4-inicia-un-repositorio-git">
+  4. Inicia un Repositorio Git
+  <a class="heading-link" href="#4-inicia-un-repositorio-git">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Abre una ventana de comandos o terminal en tu computadora. Luego, dentro de la carpeta de tu proyecto, ejecuta este comando:</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>Esto crea un lugar especial llamado &ldquo;repositorio&rdquo; donde Git guardará tus cambios.</p>
+<h3 id="5-agrega-archivos-al-repositorio">
+  5. Agrega Archivos al Repositorio
+  <a class="heading-link" href="#5-agrega-archivos-al-repositorio">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Hasta este punto, Git sabe que tienes un proyecto, pero aún no está rastreando ningún archivo en él. Necesitas decirle a Git qué archivos quieres que siga. Aquí tienes cómo hacerlo:</p>
+<h4 id="a-añadir-un-archivo-específico">
+  a. Añadir un archivo específico:
+  <a class="heading-link" href="#a-a%c3%b1adir-un-archivo-espec%c3%adfico">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Si deseas rastrear un archivo específico, usa el siguiente comando, reemplazando &ldquo;nombre-del-archivo&rdquo; con el nombre real de tu archivo:</p>
+<pre tabindex="0"><code>git add nombre-del-archivo
+</code></pre><p>Por ejemplo, si tienes un archivo llamado &ldquo;mi-archivo.txt&rdquo;, usarías:</p>
+<pre tabindex="0"><code>git add mi-archivo.txt
+</code></pre><h4 id="b-añadir-todos-los-archivos">
+  b. Añadir todos los archivos:
+  <a class="heading-link" href="#b-a%c3%b1adir-todos-los-archivos">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Si prefieres rastrear todos los archivos en tu proyecto, puedes usar el comando siguiente para agregar todos los cambios:</p>
+<pre tabindex="0"><code>git add .
+</code></pre><p>Este punto (.) significa &ldquo;todos los archivos&rdquo; en la carpeta actual. Ten cuidado con este comando, ya que agregará todos los cambios, ¡incluso los que no desees rastrear!</p>
+<h4 id="c-comprobar-el-estado-de-los-archivos">
+  c. Comprobar el Estado de los Archivos:
+  <a class="heading-link" href="#c-comprobar-el-estado-de-los-archivos">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Puedes usar el siguiente comando para ver el estado de tus archivos y cómo Git los está gestionando:</p>
+<pre tabindex="0"><code>git status
+</code></pre><p>Este comando te mostrará una lista de archivos que han sido modificados, agregados o eliminados desde el último commit. Es útil para saber qué archivos están listos para ser commitidos.</p>
+<h4 id="d-deshacer-cambios-en-un-archivo">
+  d. Deshacer Cambios en un Archivo:
+  <a class="heading-link" href="#d-deshacer-cambios-en-un-archivo">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Si cometes un error o deseas deshacer los cambios en un archivo antes de hacer un commit, puedes utilizar el siguiente comando:</p>
+<pre tabindex="0"><code>git restore nombre-del-archivo
+</code></pre><p>Este comando deshace los cambios en el archivo y lo restaura a su estado anterior a la última confirmación.</p>
+<h3 id="6-haz-un-commit">
+  6. Haz un Commit
+  <a class="heading-link" href="#6-haz-un-commit">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Ahora que le has dicho a Git qué archivos seguir, es hora de guardar esos cambios en un &ldquo;commit&rdquo;. Un commit es como un punto de control o una captura de pantalla de tu proyecto en ese momento. Aquí está cómo hacerlo:</p>
+<p>a. Hacer un Commit Básico:
+Usa el siguiente comando para hacer un commit básico con un mensaje que describa los cambios que hiciste:</p>
+<pre tabindex="0"><code>git commit -m &#34;Descripción de los cambios que hiciste&#34;
+</code></pre><p>Por ejemplo:</p>
+<pre tabindex="0"><code>git commit -m &#34;Agregué información de contacto a mi sitio web&#34;
+</code></pre><h4 id="b-detalles-adicionales-en-el-commit">
+  b. Detalles Adicionales en el Commit:
+  <a class="heading-link" href="#b-detalles-adicionales-en-el-commit">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Puedes agregar más detalles a tu commit si es necesario. Para ello, simplemente omite el -m y Git abrirá un editor de texto donde puedes escribir una descripción más larga de tus cambios.</p>
+<pre tabindex="0"><code>git commit
+</code></pre><p>Esto abrirá el editor de texto configurado en tu sistema y podrás escribir una descripción detallada de tus cambios.</p>
+<h3 id="7-revisa-tu-historial">
+  7. Revisa tu Historial
+  <a class="heading-link" href="#7-revisa-tu-historial">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Una vez que hayas hecho algunos commits, puedes ver una lista de tus cambios anteriores. Esto puede ser útil para recordar lo que has hecho o para volver a versiones anteriores si algo sale mal. Usa este comando para ver tu historial de commits:</p>
+<pre tabindex="0"><code>git log
+</code></pre><p>El comando git log mostrará una lista de commits con detalles como el autor, la fecha y el mensaje de cada commit.</p>
+<h3 id="8-trabaja-con-ramas-opcional">
+  8. Trabaja con Ramas (Opcional)
+  <a class="heading-link" href="#8-trabaja-con-ramas-opcional">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Si tu proyecto se vuelve más grande y complejo, puedes usar &ldquo;ramas&rdquo; para organizar tu trabajo. Las ramas te permiten trabajar en diferentes partes de tu proyecto sin afectar el trabajo principal. Aquí te mostramos cómo crear y cambiar entre ramas:</p>
+<h4 id="a-crear-una-rama">
+  a. Crear una Rama:
+  <a class="heading-link" href="#a-crear-una-rama">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Utiliza este comando para crear una nueva rama con un nombre descriptivo:</p>
+<pre tabindex="0"><code>git branch nombre-de-la-rama
+</code></pre><h4 id="b-cambiar-a-una-rama">
+  b. Cambiar a una Rama:
+  <a class="heading-link" href="#b-cambiar-a-una-rama">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Puedes cambiar a una rama existente con el siguiente comando:</p>
+<pre tabindex="0"><code>git checkout nombre-de-la-rama
+</code></pre><h3 id="9-guarda-tus-cambios-en-un-repositorio-remoto-opcional">
+  9. Guarda tus Cambios en un Repositorio Remoto (Opcional)
+  <a class="heading-link" href="#9-guarda-tus-cambios-en-un-repositorio-remoto-opcional">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Si trabajas con otras personas o deseas tener una copia de seguridad en línea de tu proyecto, puedes utilizar un servicio en línea como GitHub o GitLab para guardar tus cambios. Esto te permite colaborar en proyectos y tener una copia segura de tu trabajo.</p>
+<p>Espero que estos detalles adicionales te ayuden a comprender mejor Git. Si tienes más preguntas o necesitas más explicaciones, no dudes en preguntar.</p>
+<h3 id="10-colaborar-con-otros-opcional">
+  10. Colaborar con Otros (Opcional)
+  <a class="heading-link" href="#10-colaborar-con-otros-opcional">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>Si estás trabajando en un proyecto con otras personas, Git te permite colaborar de manera efectiva. Aquí hay más información sobre cómo colaborar:</p>
+<h4 id="a-clonar-un-repositorio-existente">
+  a. Clonar un Repositorio Existente:
+  <a class="heading-link" href="#a-clonar-un-repositorio-existente">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Si alguien más ya ha creado un repositorio en línea, puedes copiarlo en tu computadora usando el siguiente comando:</p>
+<pre tabindex="0"><code>git clone URL-del-repositorio
+</code></pre><p>Esto crea una copia local de todo el proyecto en tu computadora, para que puedas trabajar en él.</p>
+<h4 id="b-enviar-cambios-a-un-repositorio-remoto">
+  b. Enviar Cambios a un Repositorio Remoto:
+  <a class="heading-link" href="#b-enviar-cambios-a-un-repositorio-remoto">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Cuando quieras compartir tus cambios con otros o guardar una copia de seguridad en línea, puedes enviar tus commits a un repositorio en línea usando estos comandos:</p>
+<pre tabindex="0"><code>git remote add origin URL-del-repositorio
+git branch -M main
+git push -u origin main
+</code></pre><p>Estos comandos configuran tu repositorio local para colaborar con un repositorio en línea, como GitHub.</p>
+<h3 id="11-resolución-de-conflictos-opcional">
+  11. Resolución de Conflictos (Opcional)
+  <a class="heading-link" href="#11-resoluci%c3%b3n-de-conflictos-opcional">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>A veces, cuando varias personas trabajan en el mismo proyecto, pueden ocurrir conflictos. Esto sucede cuando dos personas hacen cambios en la misma parte de un archivo. Git te permite resolver estos conflictos. Aquí está cómo:</p>
+<h4 id="a-obtener-los-cambios-más-recientes">
+  a. Obtener los Cambios más Recientes:
+  <a class="heading-link" href="#a-obtener-los-cambios-m%c3%a1s-recientes">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Antes de resolver un conflicto, es importante asegurarse de que tienes los cambios más recientes del repositorio en línea. Usa el siguiente comando para obtener los cambios:</p>
+<pre tabindex="0"><code>git pull origin main
+</code></pre><h4 id="b-resolver-conflictos">
+  b. Resolver Conflictos:
+  <a class="heading-link" href="#b-resolver-conflictos">
+    <i class="fa fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h4>
+<p>Cuando Git detecta un conflicto, marcará las áreas en conflicto en tus archivos. Deberás editar esos archivos para resolver los conflictos manualmente.</p>
+<p><!-- raw HTML omitted -->¡Atención Importante!<!-- raw HTML omitted --></p>
+<p>Si estás trabajando en un proyecto con un equipo, asegúrate siempre de hacer un &ldquo;pull&rdquo; al comienzo de tu sesión de trabajo. Un &ldquo;pull&rdquo; obtiene los cambios más recientes del proyecto desde el repositorio en línea y los actualiza en tu computadora. Esto es esencial para mantener tus archivos actualizados y evitar conflictos con los cambios de tus compañeros de equipo.</p>
+<p>Para hacer un &ldquo;pull&rdquo;, puedes usar el siguiente comando:</p>
+<pre tabindex="0"><code>git pull origin nombre-de-la-rama-o-main
+</code></pre><p>Reemplaza &ldquo;nombre-de-la-rama-o-main&rdquo; con el nombre correcto de la rama en la que estás trabajando. Hacer esto al principio de tu día de trabajo te ayudará a estar al día y a trabajar de manera más efectiva con tu equipo.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        <div id="disqus_thread"></div>
+<script>
+  window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "raulchavez" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    
+    document.addEventListener('themeChanged', function (e) { 
+        if (document.readyState == 'complete') {
+          DISQUS.reset({ reload: true, config: disqus_config });
+        }
+    });
+</script>
+        
+        
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2023
+     Raul Chavez Aguirre 
+    ·
+    
+    Desarrollado por <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/raulchavez/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
