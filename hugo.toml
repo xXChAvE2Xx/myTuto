@@ -1,0 +1,63 @@
+baseurl = "https://xxchave2xx.github.io/raulchavez/"
+title = "Blog Raúl"
+theme = "hugo-code"
+languagecode = "es"
+defaultcontentlanguage = "es"
+
+paginate = 20
+
+disqusShortname = "raulchavez"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Raul Chavez Aguirre"
+  info = "Programador Jr."
+  description = "Sitio Personal de Raul Chavez"
+  keywords = "blog,developer,personal"
+  avatarurl = "images/author.png"
+
+
+  faviconSVG = "/static/favicon.png"
+  favicon_32 = "/static/favicon.png"
+  favicon_16 = "/static/favicon.png"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+
+# Social links
+#[[params.social]]
+#  name = "Github"
+#  icon = "fa fa-github fa-2x"
+#  weight = 1
+#  url = "https://github.com/johndoe/"
+#[[params.social]]
+#  name = "Gitlab"
+#  icon = "fa fa-gitlab fa-2x"
+#  weight = 2
+#  url = "https://gitlab.com/johndoe/"
+#[[params.social]]
+#  name = "Twitter"
+#  icon = "fa fa-twitter fa-2x"
+#  weight = 3
+#  url = "https://twitter.com/johndoe/"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
