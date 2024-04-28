@@ -1,5 +1,5 @@
 ---
-title: "Git: Basico"
+title: "Git: Básico"
 date: 2023-09-14
 description: 'Git básico para principiantes.'
 ---

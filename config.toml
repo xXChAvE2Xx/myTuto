@@ -1,5 +1,5 @@
 baseurl = "https://xxchave2xx.github.io/myTuto/"
-title = "Blog Raul"
+title = "Blog Raúl"
 theme = "hugo-code"
 languagecode = "es"
 defaultcontentlanguage = "es"
